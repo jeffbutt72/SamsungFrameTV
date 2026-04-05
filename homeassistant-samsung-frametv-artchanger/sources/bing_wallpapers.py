@@ -11,4 +11,4 @@ def get_image(url):
         return BytesIO(r.content), "JPEG"
     except Exception as e:
         print(f"Error: {e}")
-        return None, None
+        return None, None 
